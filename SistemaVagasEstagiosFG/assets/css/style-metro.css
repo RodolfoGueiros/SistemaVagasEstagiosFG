@@ -2,6 +2,18 @@
 Modify bootstrap buttons
 ***/
 
+/*** Modificações para o projeto ***/
+
+.btn-left {
+	margin-left: 80%;	
+}
+
+.btn-left2 {
+	margin-left: 77.5%;	
+}
+
+/*** Fim Modificações para o projeto ***/
+
 /* remove rounds from all elements */
 div, input, select, textarea, span, img, table, td, th, p, a, button, ul, li {
   -webkit-border-radius: 0 !important;

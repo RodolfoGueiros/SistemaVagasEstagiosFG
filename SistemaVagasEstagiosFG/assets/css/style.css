@@ -1,4 +1,4 @@
-/*   
+﻿/*   
 Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap v2.3.1
 Version: 1.2.4
 Author: KeenThemes
@@ -5051,4 +5051,9 @@ Bootstrap Datepickers Restyle(in v1.2.4)
   font-weight: 400 !important;
 }
 
+/*** Implementação do projetos adaptação ***/
 
+.timelinevagas {
+	position:absolute;
+	max-width: 70%;  
+}
