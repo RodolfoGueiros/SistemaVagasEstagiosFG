@@ -22,10 +22,10 @@ var Login = function () {
 
 	            messages: {
 	                username: {
-	                    required: "Username is required."
+	                    required: "Inserir usuário."
 	                },
 	                password: {
-	                    required: "Password is required."
+	                    required: "Inserir senha."
 	                }
 	            },
 
@@ -75,7 +75,7 @@ var Login = function () {
 
 	            messages: {
 	                email: {
-	                    required: "Email is required."
+	                    required: "Inserir e-mail."
 	                }
 	            },
 
