@@ -35,6 +35,14 @@ Import fonts
 /***
 Reset and overrides  
 ***/
+
+/*** Implementação do projetos adaptação ***/
+
+.timelinevagas .row-fluid {
+  position: absolute;
+  max-width: 50%; 
+}
+
 /* general body settings */
 body { 
   color: #000; 
@@ -5051,9 +5059,3 @@ Bootstrap Datepickers Restyle(in v1.2.4)
   font-weight: 400 !important;
 }
 
-/*** Implementação do projetos adaptação ***/
-
-.timelinevagas {
-	position:absolute;
-	max-width: 50%;  
-}
