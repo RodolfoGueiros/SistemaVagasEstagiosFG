@@ -23,7 +23,7 @@
    <link href="assets/css/pages/invoice.css" rel="stylesheet" type="text/css"/>
    <link href="assets/css/print.css" rel="stylesheet" type="text/css" media="print"/>
    <!-- END PAGE LEVEL STYLES -->
-   <link rel="shortcut icon" href="favicon.ico" />
+   <link rel="shortcut icon" href="assets/img/fg/favicon.png" />
 </head>
 <!-- END HEAD -->
 <!-- BEGIN BODY -->
@@ -231,9 +231,36 @@
                   </div>
                   <div class="span8 invoice-block">
                      <!-- <a class="btn blue big hidden-print" onclick="javascript:window.print();"> Imprimir <i class="icon-print icon-big"></i></a> -->
-                     <a class="btn red big"><i class="m-icon-big-swapleft m-icon-white"></i> Cancelar </a>
-                     <a class="btn green big hidden-print">Confirmar <i class="m-icon-big-swapright m-icon-white"></i></a>
+                     <a href="#myModal3" role="button" class="btn red big btn-warning" data-toggle="modal" ><i class="m-icon-big-swapleft m-icon-white"></i> Cancelar </a>
+                     <a href="#myModal2" role="button" class="btn green big btn-danger" data-toggle="modal">Confirmar <i class="m-icon-big-swapright m-icon-white"></i></a>
                   </div>
+               </div>
+               <div class="portlet-body">
+                  <div id="myModal2" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+                     <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                        <h3 id="myModalLabel2">Confirmação concluida!</h3>
+                     </div>
+                     <div class="modal-body">
+                        <p>Parabéns! você se candidatou a um vaga de estágio pela Faculdade dos guararapes, por favor dirija-se a central do estágio para pegar seu encaminhamento e boa sorte.</p>
+                     </div>
+                     <div class="modal-footer">
+                        <button data-dismiss="modal" class="btn green" onclick="location.href='index.html'" >OK</button>
+                     </div>
+                  </div>
+                  <div id="myModal3" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+                           <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                              <h3 id="myModalLabel3">Atenção!</h3>
+                           </div>
+                           <div class="modal-body">
+                              <p>Deseja realmente desistir desta vaga ?</p>
+                           </div>
+                           <div class="modal-footer">
+                              <button class="btn" data-dismiss="modal" aria-hidden="true">Cancelar</button>
+                              <button data-dismiss="modal" class="btn blue" onclick="location.href='index.html'" >Confirmar</button>
+                           </div>
+                        </div>
                </div>
             </div>
             <!-- END PAGE CONTENT-->

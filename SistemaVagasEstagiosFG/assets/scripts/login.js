@@ -48,14 +48,14 @@ var Login = function () {
 	            },
 
 	            submitHandler: function (form) {
-	                window.location.href = "index.html";
+	                window.location.href = "confirmacao-vaga.html";
 	            }
 	        });
 
 	        $('.login-form input').keypress(function (e) {
 	            if (e.which == 13) {
 	                if ($('.login-form').validate().form()) {
-	                    window.location.href = "index.html";
+	                    window.location.href = "confirmacao-vaga.html";
 	                }
 	                return false;
 	            }
