@@ -10,4 +10,10 @@
 
   Uma ferramenta com uma interface que possibilite ao usuario uma ferramenta na busca de vagas de estágios com uma navegabilidade fácil, limpa e robusta visando sempre manter e garantir integridade dos usuários e disponibilizar um serviço eficiente aos seus usuáros.
 
-# Estrutura
+##s Estrutura
+
+  - Tela Incial. 
+  - Tela de Login.
+  - Tela de Confirmação.
+  
+Uma time-line que lista todas as vagas disponiveis cadastradas ao clicar no botão "detalhes" exibe um popup com          informações detalhadas da vaga, uma vez que clica no botão de "participar" direciona para pagina de login validando se   o usuario é aluno da instituição caso o processo ocorra corretamente ele será encminhado para tela de confirmação da     vaga, caso contrario sera exibida uma mensagem informando o erro. Na tela de confirmação o usuario terá a opção de       desistir clicando em cancelar e confirmando ou de finalizar o processo clicando em confirmar.
