@@ -32,3 +32,7 @@ CCO 2015.2 6 - DESENVOLVIMENTO DE INTERFACES INTELIGENTES
   + Evandro Nasciment
   + Rodolfo Gueiros
   + Paulo Ricardo
+
+Respositório - github:
+
+https://github.com/pricardoti/SistemaVagasEstagiosFG
