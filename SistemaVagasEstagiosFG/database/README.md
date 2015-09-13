@@ -12,15 +12,13 @@
 
 # Estrutura do sistema
 
-+ Visão do usuario final
-
-  - Tela Incial. 
-  - Tela de Login.
-  - Tela de Confirmação.
-
 + Descrição:
 
-  Uma timeline que lista todas as vagas disponiveis cadastradas ao clicar no botão "detalhes" exibe um popup com          informações detalhadas da vaga, uma vez que clica no botão de "participar" direciona para pagina de login validando se   o usuario é aluno da instituição caso o processo ocorra corretamente ele será encminhado para tela de confirmação da     vaga, caso contrario sera exibida uma mensagem informando o erro. Na tela de confirmação o usuario terá a opção de       desistir clicando em cancelar e confirmando ou de finalizar o processo clicando em confirmar onde será exibida uma mensagem de confirmação com protocolo do processo.
+  O projeto tem como intuito disponibilizar uma tela inicial onde conterá timeline que lista todas as vagas disponiveis.
+  
+  Cadastradas ao clicar no botão "detalhes" deverá exibir um pop-up com informações detalhadas da vaga selecionada que lhe dará a opção de participar ou não da vaga.
+  
+  Uma vez que clica no botão de "participar" direciona para pagina de login validando se o usuario é aluno da instituição caso o processo ocorra corretamente ele será encminhado para tela de confirmação da vaga.Caso contrario sera exibida uma mensagem informando o erro. Na tela de confirmação o usuario terá a opção de desistir clicando em cancelar e confirmando ou de finalizar o processo clicando em confirmar onde será exibida uma mensagem de confirmação com protocolo do processo.
   
 # Integrantes do Projeto
 
