@@ -12,7 +12,7 @@
 
 # Estrutura do sistema
 
-+ Descrição:
++ Descrição Geral do sistema (overview):
 
   O projeto tem como intuito disponibilizar uma tela inicial onde conterá timeline que lista todas as vagas disponiveis.
   
@@ -30,6 +30,10 @@ CCO 2015.2 6 - Banco de Dados II
   + Rodolfo Gueiros
   + Paulo Ricardo
 
-#Respositório - github:
+# Respositório - github:
 
 https://github.com/pricardoti/SistemaVagasEstagiosFG/database
+
+# Modelo conceitual textual banco de dados:
+
+Obs: daqui em diante descrever as atividades relacionadas ao projeto.
